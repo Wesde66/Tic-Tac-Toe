@@ -12,7 +12,7 @@ public class Board {
 	/** Constructor to create the game board */
 	public Board() {
 		
-	 //TODO: initialise the cells array using ROWS and COLS constants 
+	 //TODO: initialize the cells array using ROWS and COLS constants 
 
 		
 		for (int row = 0; row < GameMain.ROWS; ++row) {
@@ -25,6 +25,7 @@ public class Board {
 
 	 /** Return true if it is a draw (i.e., no more EMPTY cells) */ 
 	public boolean isDraw() {
+		return false;
 		 
 		// TODO: Check whether the game has ended in a draw. 
 		// Hint: Use a nested loop (see the constructor for an example). Check whether any of the cells content in the board grid are Player.Empty. If they are, it is not a draw.

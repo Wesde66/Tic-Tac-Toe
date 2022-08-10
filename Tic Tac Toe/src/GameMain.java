@@ -26,7 +26,7 @@ public class GameMain extends JPanel implements MouseListener{
 	// the game board 
 	private Board board;
 	 	 
-	//TODO: create the enumeration for the variable below (GameState currentState)
+	//TODO: create the enumeration for the variable below (GameState currentState) {Completed)
 	//HINT all of the states you require are shown in the code within GameMain
 	private GameState currentState; 
 	
@@ -57,7 +57,8 @@ public class GameMain extends JPanel implements MouseListener{
 		
 		
 		// TODO: Create a new instance of the game "Board"class. HINT check the variables above for the correct name
-
+		Board board = new Board();
+		
 		
 		//TODO: call the method to initialise the game board
 
@@ -116,6 +117,7 @@ public class GameMain extends JPanel implements MouseListener{
 				statusBar.setText("'O' Won! Click to play again.");       
 			}
 		}
+		
 		
 	
 	  /** Initialise the game-board contents and the current status of GameState and Player) */
